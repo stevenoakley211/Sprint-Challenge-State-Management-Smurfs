@@ -1,6 +1,4 @@
 import axios from 'axios';
-// export const GET_DATA ='GET_DATA'
-// export const UPDATE_SMURFS ="UPDATE_SMURFS"
 export const getState = () => {
     return dispatch => {
    dispatch({type: "GET_DATA"});
